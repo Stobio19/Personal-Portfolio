@@ -1,12 +1,11 @@
 import React from "react";
-
 import { useState, useEffect } from "react";
 import { Sun } from "../Components/icons/Sun";
 import { Moon } from "../Components/icons/Moon";
 import logo2blanco from "../img/logo2blanco.png";
 import logo2 from "../img/logo2.png";
-import Link from "next/link";
 import { Menu } from "./icons/Menu";
+import Image from "next/image";
 
 export default function Nav() {
   const [darkMode, setDarkMode] = useState(false);
@@ -45,14 +44,18 @@ export default function Nav() {
       <nav className="height-full flex justify-between items-center wrap relative py-2 px-4 md:px-10">
         <div>
           {darkMode ? (
-            <img
+            <Image
+              width={200}
+              height={200}
               className="w-16 md:w-28 transparent"
               src={logo2blanco.src}
               alt="Logo"
             />
           ) : (
-            <img
+            <Image
               className="w-20  md:w-28 transparent"
+              width={200}
+              height={200}
               src={logo2.src}
               alt="Logo"
             />

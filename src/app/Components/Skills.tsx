@@ -1,12 +1,12 @@
 import React from "react";
 import { FullCircle } from "./icons/FullCircle";
-import { CircleOutline } from "./icons/CircleOutline";
 import css from "../img/programming-icons/css.svg";
 import html from "../img/programming-icons/html.svg";
 import javascript from "../img/programming-icons/javascript.svg";
 import python from "../img/programming-icons/python.svg";
 import react from "../img/programming-icons/react.svg";
 import tailwindcss from "../img/programming-icons/tailwindcss.svg";
+import Image from "next/image";
 
 const Skills = () => {
   return (
@@ -20,7 +20,9 @@ const Skills = () => {
         </h2>
         <div className="grid mt-16 auto-cols-auto sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4   ">
           <div className="flex flex-col items-start bg-slate-800 hover:scale-105 shadow-md  cursor-pointer   hover:brightness-110 transition rounded-lg p-6 border-blue-500 shadow-blue-500">
-            <img
+            <Image
+              width={200}
+              height={200}
               className="w-32 place-self-center "
               src={html.src}
               alt="html"
@@ -41,7 +43,13 @@ const Skills = () => {
           </div>
 
           <div className="flex flex-col items-start bg-slate-800 hover:scale-105 shadow-md  cursor-pointer  hover:brightness-110 transition   rounded-lg p-6 border-blue-500 shadow-blue-500">
-            <img className="w-32 place-self-center " src={css.src} alt="html" />
+            <Image
+              className="w-32 place-self-center "
+              src={css.src}
+              alt="html"
+              width={200}
+              height={200}
+            />
             <h1 className="text-white font-rubik font-semibold sm:text-lg md:text-xl lg:text-2xl">
               CSS3{" "}
             </h1>
@@ -58,8 +66,10 @@ const Skills = () => {
           </div>
 
           <div className="flex flex-col items-start bg-slate-800 hover:scale-105 shadow-md  cursor-pointer  hover:brightness-110 transition   rounded-lg p-6 border-blue-500 shadow-blue-500">
-            <img
+            <Image
               className="w-32 place-self-center mb-2 "
+              width={200}
+              height={200}
               src={javascript.src}
               alt="html"
             />
@@ -79,7 +89,9 @@ const Skills = () => {
           </div>
 
           <div className="flex flex-col items-start bg-slate-800 hover:scale-105 shadow-md cursor-pointer  hover:brightness-110 transition   rounded-lg p-6 border-blue-500 shadow-blue-500">
-            <img
+            <Image
+            width={200}
+            height={200}
               className="w-32 place-self-center "
               src={react.src}
               alt="html"
@@ -100,7 +112,9 @@ const Skills = () => {
           </div>
 
           <div className="flex flex-col items-start bg-slate-800 hover:scale-105 shadow-md  cursor-pointer  hover:brightness-110 transition   rounded-lg p-6 border-blue-500 shadow-blue-500">
-            <img
+            <Image
+            width={200}
+            height={200}
               className="w-32 place-self-center "
               src={tailwindcss.src}
               alt="html"
@@ -121,7 +135,9 @@ const Skills = () => {
           </div>
 
           <div className="flex flex-col items-start bg-slate-800 hover:scale-105 shadow-md  cursor-pointer  hover:brightness-110 transition   rounded-lg p-6 border-blue-500 shadow-blue-500">
-            <img
+            <Image
+            width={200}
+            height={200}
               className="w-32 place-self-center "
               src={python.src}
               alt="html"
