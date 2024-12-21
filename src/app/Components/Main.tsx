@@ -1,10 +1,10 @@
 import React from "react";
-import main from "../img/main.png";
+import main from "../img/main.svg";
 import Image from "next/image";
 
 export default function Main() {
   return (
-    <main className=" md:py-12 relative grid grid-cols-1 lg:grid-cols-2 place-items-center max-w-7xl px-6  mx-auto md:px-8  lg:px-10 xl:px-0     ">
+    <main className=" md:py-12 relative grid grid-cols-1 lg:grid-cols-2 place-items-center max-w-7xl px-8  mx-auto md:px-10 lg:px-12  xl:px-14 2xl:px-16    ">
       <div className="content relative flex flex-col text-center md:text-start gap-4">
         <span className="blur-custom"></span>
         <span className="blur-custom"></span>
