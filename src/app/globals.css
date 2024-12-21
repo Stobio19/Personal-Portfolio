@@ -1,16 +1,50 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Rubik:wght@400;700&family=Montserrat:wght@400;700&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@layer utilities {
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+}
 
 @layer base {
   * {
-    @apply p-0 m-0 outline-none border-none box-border;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  ol,ul {
+    list-style: none;
+  }
+
+  @media (max-width: 768px) {
+    ul {
+      top: 5rem; /* Ajustar según tu diseño */
+    }
+  }
+
+  
+
+
+  .menu_hamburguesa {
+    display: none;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    @apply transition-colors duration-200 bg-white dark:bg-neutral-900;
+  }
+
+  section[id] {
+    scroll-margin-top: 6.25rem;
   }
 
   .logo {
@@ -21,27 +55,19 @@
     @apply decoration-0;
   }
 
-  body {
-    background-color: #18181b;
-    @apply font-font;
-  }
-
-  nav {
-    @apply max-w-6xl m-auto py-2 px-1 flex items-center justify-between;
-  }
-
   .nav-a {
-    @apply pb-3 text-slate-50;
+    @apply font-font pb-3 text-slate-50;
   }
 
   .nav-a::after {
     content: "";
     position: absolute;
+
     height: 2px;
     width: 0;
     bottom: 0;
     left: 0;
-    background-color: #1d4ed8; /* 1d4ed === blue-700 */
+    background-color: #fff; /* 1d4ed === blue-700 */
     transition: width 0.3s ease;
   }
 
@@ -49,39 +75,15 @@
     width: 70%;
   }
 
-  .btn {
-    @apply max-w-max font-semibold text-white p-2 text-2xl bg-blue-700 py-2 px-4 rounded-md shadow-md hover:brightness-125 cursor-pointer transition;
-  }
-
-
   .blur-custom {
     box-shadow: 0 0 1000px 50px #1d4ed8;
-    z-index: -100;
+    z-index: -1;
     @apply absolute;
   }
 
-
-  .header-img {
-    min-width: 450px;
-    @apply relative   max-w-lg h-auto object-contain;
-  }
-
-  header .content h4 {
-    @apply mb-3 text-slate-300 text-xl font-semibold;
-  }
-
-  header .content h1 {
-    @apply text-white mb-3 text-7xl font-bold leading-tight;
-  }
-
-  header .content h1 span {
-    -webkit-text-fill-color: transparent;
+  .webkit-effect {
     -webkit-text-stroke: 1px #fff;
+    -webkit-text-fill-color: transparent;
+    @apply transition-none !important;
   }
-
-  header .content p {
-    @apply mb-4 text-slate-300 text-lg leading-6;
-  }
-
- 
 }
