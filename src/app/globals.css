@@ -60,19 +60,19 @@
   }
 
   .nav-a::after {
-    content: "";
+    content: ""; 
+    background-color: #1d4ed8;
+    width: 0%;
     position: absolute;
-
-    height: 2px;
-    width: 0;
     bottom: 0;
     left: 0;
-    background-color: #fff; /* 1d4ed === blue-700 */
-    transition: width 0.3s ease;
+    /* height: .6rem; */
+    @apply transition-all duration-300;
+
   }
 
   .nav-a:hover::after {
-    width: 70%;
+    width: 95%;
   }
 
   .blur-custom {

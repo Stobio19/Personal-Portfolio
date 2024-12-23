@@ -22,8 +22,8 @@ export default function Main() {
           I am a person passionate about computing and technology, and I greatly
           enjoy learning about topics related to this field.
         </p>
-        <button className="max-w-max self-center md:self-start font-semibold text-white p-2 text-2xl bg-blue-700 py-2 px-4 rounded-md shadow-md hover:brightness-125 cursor-pointer transition ">
-          Get Started
+        <button  className="max-w-max self-center md:self-start font-semibold text-white p-2 text-2xl bg-blue-700 py-2 px-4 rounded-md shadow-md hover:brightness-125 cursor-pointer transition ">
+          <a href="#">Get Started</a>
         </button>
       </div>
       <div className="relative -top-8 image max-w-full flex justify-center overflow-hidden md:overflow-visible">

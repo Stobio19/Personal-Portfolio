@@ -67,7 +67,7 @@ export default function Nav() {
           className=" absolute right-2 top-8 z-20 md:hidden"
           onClick={toggleMenu}
         >
-          <Menu className="text-gray-700  text-3xl cursor-pointer" />
+          <Menu className="text-gray-700 dark:text-slate-100  text-3xl cursor-pointer" />
         </label>
         <input
           type="checkbox"
@@ -83,7 +83,7 @@ export default function Nav() {
         >
           <li className=" md:text-lg md:py-1 md:px-2">
             <a
-              className=" text-3xl relative nav-a transition group md:text-xl text-neutral-200 md:text-neutral-900 dark:text-neutral-200   "
+              className=" text-3xl relative nav-a after:bg-slate-50 after:h-1 after:rounded-md after:lg:rounded-none after:lg:h-2.5 after:lg:bg-blue-500 dark:after:lg:bg-white  transition  md:text-xl text-neutral-200 md:text-neutral-900 dark:text-neutral-200   "
               href="#"
             >
               Home
@@ -91,7 +91,7 @@ export default function Nav() {
           </li>
           <li className=" md:text-lg md:py-1 md:px-2">
             <a
-              className="text-3xl relative md:text-xl text-neutral-200 md:text-neutral-900 dark:text-neutral-200   nav-a transition group"
+              className="text-3xl relative md:text-xl text-neutral-200 md:text-neutral-900 dark:text-neutral-200   nav-a after:bg-slate-50 after:h-1 after:rounded-md after:lg:rounded-none after:lg:h-2.5 after:lg:bg-blue-500 dark:after:lg:bg-white  transition "
               href="#education"
             >
               Education
@@ -99,7 +99,7 @@ export default function Nav() {
           </li>
           <li className=" md:text-lg md:py-1 md:px-2">
             <a
-              className=" relative text-3xl md:text-xl text-neutral-200 md:text-neutral-900 dark:text-neutral-200    nav-a transition group"
+              className=" relative text-3xl md:text-xl text-neutral-200 md:text-neutral-900 dark:text-neutral-200    nav-a after:bg-slate-50 after:h-1 after:rounded-md after:lg:rounded-none after:lg:h-2.5 after:lg:bg-blue-500 dark:after:lg:bg-white  transition "
               href="#skills"
             >
               Skills
@@ -107,14 +107,14 @@ export default function Nav() {
           </li>
           <li className=" md:text-lg md:py-1 md:px-2">
             <a
-              className="text-3xl relative md:text-xl text-neutral-200 md:text-neutral-900 dark:text-neutral-200    nav-a transition group"
+              className="text-3xl relative md:text-xl text-neutral-200 md:text-neutral-900 dark:text-neutral-200    nav-a after:bg-slate-50 after:h-1 after:rounded-md after:lg:rounded-none after:lg:h-2.5 after:lg:bg-blue-500 dark:after:lg:bg-white  transition "
               href="#footer"
             >
               About
             </a>
           </li>
           <li>
-            <button className="inline-block md:hidden  dark:text-neutral-200    max-w-max font-semibold text-neutral-900 p-2 text-2xl bg-slate-200 py-2 px-4 border border-slate-500 rounded-md shadow-md hover:brightness-125 cursor-pointer transition ">
+            <button className="inline-block md:hidden  dark:text-neutral-900    max-w-max font-semibold text-neutral-900 p-2 text-2xl bg-slate-200 py-2 px-4 border border-slate-500 rounded-md shadow-md hover:brightness-125 cursor-pointer transition ">
               <a href="/CV.pdf" download>
                 Hire Me
               </a>
