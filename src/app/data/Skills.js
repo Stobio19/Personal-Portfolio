@@ -46,5 +46,12 @@ export const skills = [
         image: "/programming-icons/python.svg",
         level: "Intermediate", 
         stars: 3, 
+    },
+    {
+        id: 7, 
+        name: "FastAPI",
+        image: "/programming-icons/fastapi.png",
+        level: "Beginner",
+        stars: 2,
     }
 ]

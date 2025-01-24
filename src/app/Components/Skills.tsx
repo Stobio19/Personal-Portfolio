@@ -1,7 +1,6 @@
 import React from "react";
 import { FullCircle } from "./icons/FullCircle";
 import Image from "next/image";
-import css from '../img/programming-icons/css.svg';
 import { skills } from "../data/Skills"; 
 
 function Skills() {
@@ -18,7 +17,7 @@ function Skills() {
           {skills.map((skill, index) => (
             <div
             key={index}
-            className="flex flex-col items-start bg-slate-800 hover:scale-105 shadow-md cursor-pointer hover:brightness-110 transition roundend-lg p-6 border-blue-500 shadow-blue-500">
+            className="flex flex-col items-start bg-slate-800 hover:scale-105 shadow-md cursor-pointer hover:brightness-110 transition rounded-lg p-6 border-blue-500 shadow-blue-500">
               <img
               width={400}
               height={400}
