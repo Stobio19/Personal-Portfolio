@@ -1,35 +1,106 @@
-<<<<<<< HEAD
+# English
+# 📌 My Portfolio - Developed with Next.js
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+This is my personal portfolio developed with [Next.js](https://nextjs.org), designed to showcase my Front-End development projects and skills. Created with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-First, run the development server:
+## 🚀 Technologies Used.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Next.js** - React framework for modern applications.
+- **TypeScript** - Static typing for code security
+- **Tailwind CSS** - Fast and customizable styling
+- **Framer Motion** - Smooth and attractive animation
+- **Vercel** - Quick and easy implementation
+- **Git** - Version control
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠 Installation and Usage
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To run the project locally, follow these steps:
 
-## Learn More
+1. Clone the repository:
+   ````bash
+   git clone https://github.com/Stobio19/Personal-Portfolio 
+   ```
+2. Access the project folder:
+   ````bash
+   cd my-portfolio
+   ```
+3. Install the dependencies:
+   ````bash
+   npm install
+   # o
+   yarn install
+   ```
+4. Start the development server:
+   ````bash
+   npm run dev
+   # o
+   yarn dev
+   ```
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-To learn more about Next.js, take a look at the following resources:
+## 🌍 Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The portfolio is deployed in **Vercel**. You can access the live version at:
+👉 https://personal-portfolio-samuel-leonardo-tobio-florezs-projects.vercel.app/
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📬 Contact
 
-## Deploy on Vercel
+If you want to get in touch with me, you can find me on:
+- LinkedIn: www.linkedin.com/in/samuel-leonardo-tobío-flórez
+- Mail: sleonardot2@gmail.com / sleonardot@gmail.com
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Thanks for visiting my portfolio! 🚀
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Spanish
+# 📌 Mi Portafolio - Desarrollado con Next.js
+
+Este es mi portafolio personal desarrollado con [Next.js](https://nextjs.org), diseñado para mostrar mis proyectos y habilidades en desarrollo Front-End. Creado con [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## 🚀 Tecnologías Utilizadas
+
+- **Next.js** - Framework de React para aplicaciones modernas
+- **TypeScript** - Tipado estático para mayor seguridad en el código
+- **Tailwind CSS** - Estilos rápidos y personalizables
+- **Framer Motion** - Animaciones fluidas y atractivas
+- **Vercel** - Implementación rápida y sencilla
+- **Git** - Control de versiones
+
+## 🛠 Instalación y Uso
+
+Para ejecutar el proyecto localmente, sigue estos pasos:
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/Stobio19/Personal-Portfolio 
+   ```
+2. Accede a la carpeta del proyecto:
+   ```bash
+   cd mi-portafolio
+   ```
+3. Instala las dependencias:
+   ```bash
+   npm install
+   # o
+   yarn install
+   ```
+4. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   # o
+   yarn dev
+   ```
+5. Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver el resultado.
+
+## 🌍 Despliegue
+
+El portafolio está desplegado en **Vercel**. Puedes acceder a la versión en vivo en:
+👉 https://personal-portfolio-samuel-leonardo-tobio-florezs-projects.vercel.app/
+
+## 📬 Contacto
+
+Si quieres ponerte en contacto conmigo, puedes encontrarme en:
+- LinkedIn: www.linkedin.com/in/samuel-leonardo-tobío-flórez
+- Correo: sleonardot2@gmail.com / sleonardot@gmail.com
+
+¡Gracias por visitar mi portafolio! 🚀
