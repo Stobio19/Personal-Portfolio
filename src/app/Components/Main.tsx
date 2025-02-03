@@ -11,7 +11,7 @@ export default function Main() {
         <h4 className=" text-shadow bg-gradient-to-r from-slate-950  to-blue-500    text-transparent bg-clip-text  text-3xl sm:text-4xl font-bold mb-3 dark:bg-none dark:text-neutral-300">
           CREATE YOUR SITE LIKE A PRO
         </h4>
-        <h1 className="text-shadow text-neutral-900 mb-3  text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tigh  dark:text-neutral-300">
+        <h1 className="text-shadow text-neutral-900 mb-3  text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tigh  dark:text-neutral-300">
           Hi, I'm{" "}
           <span className=" dark:webkit-effect bg-gradient-to-r from-slate-950  to-blue-500    text-transparent bg-clip-text dark:bg-none ">
             Samuel
@@ -30,7 +30,7 @@ export default function Main() {
         <Image
           width={550}
           height={100}
-          className="header-Image cursor-pointer w-full max-w-[300px] sm:max-w-[350px] md:max-w-[400px] lg:max-w-[450px] xl:max-w-[500px] h-auto"
+          className="header-Image cursor-pointer w-full max-w-[300px] sm:max-w-[350px] md:max-w-[400px] lg:max-w-[450px] xl:max-w-[450px] h-auto"
           src={main.src}
           alt="Main Image"
         />

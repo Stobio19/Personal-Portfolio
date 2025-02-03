@@ -18,7 +18,7 @@ function Skills() {
             <div
             key={index}
             className="flex flex-col items-start bg-slate-800 hover:scale-105 shadow-md cursor-pointer hover:brightness-110 transition rounded-lg p-6 border-blue-500 shadow-blue-500">
-              <img
+              <Image
               width={400}
               height={400}
               className="w-32 place-self-center"
