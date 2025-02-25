@@ -16,7 +16,7 @@ export default function Main() {
           <span className=" dark:webkit-effect bg-gradient-to-r from-slate-950  to-blue-500    text-transparent bg-clip-text dark:bg-none ">
             Samuel
           </span>
-          , Frontend Developer
+          , Software Developer
         </h1>
         <p className="text-neutral-700 mb-4 text-lg leading-6 dark:text-neutral-300">
           I am a person passionate about computing and technology, and I greatly

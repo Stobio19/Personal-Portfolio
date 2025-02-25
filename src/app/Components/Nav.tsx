@@ -115,7 +115,7 @@ export default function Nav() {
           </li>
           <li>
             <button className="inline-block md:hidden  dark:text-neutral-900    max-w-max font-semibold text-neutral-900 p-2 text-2xl bg-slate-200 py-2 px-4 border border-slate-500 rounded-md shadow-md hover:brightness-125 cursor-pointer transition ">
-              <a href="/CV.pdf" download>
+              <a href="/Samuel_Tobio_CV.pdf" download>
                 Hire Me
               </a>
             </button>
@@ -123,7 +123,7 @@ export default function Nav() {
 
           <li>
             <button className="inline-block md:hidden  font-semibold   text-neutral-700 bg-slate-50 p-2 rounded-md px-3   text-2xl  cursor-pointer hover:bg-slate-200 transition ">
-              <a href="/CV.pdf" download>
+              <a href="/Samuel_Tobio_CV.pdf" download>
                 Download my CV
               </a>
             </button>
@@ -132,12 +132,12 @@ export default function Nav() {
 
         <div className="flex flex-row gap-4">
           <button className="hidden lg:inline-block shadow-neutral-500 dark:shadow-none dark:text-neutral-200  sm:text-sm md:text-lg lg:text-xl xl:text-xl   max-w-max font-semibold text-white p-2 text-2xl bg-blue-700 py-2 px-4 rounded-md shadow-md hover:brightness-125 cursor-pointer transition ">
-            <a href="/CV.pdf" download>
+            <a href="/Samuel_Tobio_CV.pdf" download>
               Hire Me
             </a>
           </button>
           <button className="hidden lg:inline-block shadow-md shadow-neutral-400 dark:shadow-none text-gray-600 bg-slate-50 rounded-md px-3   text-xs md:text-sm lg:text-md xl:text-lg cursor-pointer hover:bg-slate-200 transition ">
-            <a href="/CV.pdf" download>
+            <a href="/Samuel_Tobio_CV.pdf" download>
               Download my CV
             </a>
           </button>
